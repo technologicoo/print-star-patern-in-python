@@ -1,0 +1,34 @@
+# make a quab with *
+
+# 1. take a input of number for number of star in each line
+
+q=int(input("enter a number "))
+
+# 2. using for loop to creat a queb
+for i in range(1,q):
+    print("*" * q)
+
+#make a tringal
+
+#1.take input for right angle tringal 
+
+T=int(input("enter a number "))
+
+#2. use for loop for make a right angle tringal
+for i in range(1,T):
+    print("*" * i)
+
+#make a tringal
+
+#1. take a input frome user 
+
+t=int(input("enter a number "))
+
+# for loop use 
+for i in range(1,t+1):
+    print(" " *(t-i),end="")
+    #nasted for loop
+    for j in range(1,2*i-1+1):
+        print("*" ,end="")
+    print()
+
